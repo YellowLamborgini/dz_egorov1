@@ -1,6 +1,6 @@
 ﻿Console.WriteLine("Введите число");
 int chislo=Convert.ToInt32(Console.ReadLine());
-if (chislo<1&chislo>100)
+if (chislo<1|chislo>100)
 {
     Console.WriteLine("Ошибка");
 }
